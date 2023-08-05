@@ -10,13 +10,13 @@ const NavBar = () => {
             <Container fluid >
                 <Brand />
                 <NavbarBS.Toggle aria-controls="basic-navbar-nav" />
-                <NavbarBS.Collapse id="basic-navbar-nav " className={styles.teste1}>
+                <NavbarBS.Collapse id="basic-navbar-nav " className={styles.teste1} >
                     <NavBtns />
-                    <div>
+                    {/* <div>
                         <p>
                             icon
                         </p>
-                    </div>
+                    </div> */}
                 </NavbarBS.Collapse>
 
             </Container>
