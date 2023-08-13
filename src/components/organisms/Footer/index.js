@@ -41,7 +41,7 @@ const Footer = () => {
       </Row>
       <Row>
           {datas.map((data, index) => (
-            <Col>
+            <Col key={index}>
               <FooterText key={index} title={data.title} text={data.text} />
             </Col>
           ))}
