@@ -1,0 +1,163 @@
+@import '../../utils/colors.css';
+
+
+/*botoes normais*/
+.botao-primario{
+    background-color: var(--secundaria_03) ;
+    border: 2px solid var(--secundaria_03);
+    color: white;
+    
+    padding: 0.6rem 4rem;
+    display: block;
+    font-weight: 600;
+    
+}
+
+.botao-primario:active{
+    background-color: var(--secundaria_03);
+    border: 2px solid var(--secundaria_03);
+    color: white;
+    font-weight: 600;
+}
+
+.botao-primario:hover{
+    background-color: var(--primaria_01);
+    border: 2px solid var(--primaria_01);
+    color: white;
+    font-weight: 600;
+}
+
+/*----botao-secundario----*/
+
+.botao-secundario{
+    background-color: #476BA9;
+    border: 2px solid #476BA9;
+    color: white;
+    padding: 0.6rem 4rem;
+    display: block;
+    font-weight: 600;
+}
+
+.botao-secundario:active{
+    background-color: var(--secundaria_02);
+    border: 2px solid var(--secundaria_02);
+    color: white;
+    font-weight: 600;
+}
+
+
+.botao-secundario:hover{
+    background-color: var(--secundaria_02);
+    border: 2px solid var(--secundaria_02);
+    color: white;
+    font-weight: 600;
+}
+
+/*----botao-terciario----*/
+
+.botao-terciario{
+    background-color: #fff;
+    border: 2px solid var(--base_02);
+    padding: 0.6rem 4rem;
+    display: block;
+    color: var(--base_02);
+    font-weight: 600;
+}
+
+.botao-terciario:active{
+    background-color: var(--secundaria_02);
+    border: 2px solid var(--secundaria_02);
+    color: white;
+    
+    font-weight: 600;
+}
+
+
+.botao-terciario:hover{
+    background-color: var(--secundaria_02);
+    border: 2px solid var(--secundaria_02);
+    color: white;
+    
+    font-weight: 600;
+}
+
+.botao-terciario {
+    background-color: white;
+    color: #bfbfbf;
+    border: solid 2px #bfbfbf;
+    padding: 0.6rem 4rem;
+    display: block;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.botao-terciario:active {
+    background-color: grey ;
+    border: 2px solid grey;
+    color: white;
+    
+    font-weight: 600;
+}
+
+
+.botao-terciario:hover{
+    background-color: #bfbfbf;
+    border: 2px solid #bfbfbf;
+    color: white;
+    
+    font-weight: 600;
+}
+
+/*----------------primary-x-------------------------*/
+.botao-primario-X {
+    padding: 0.2rem 0.65rem;
+    display: block;
+    font-size: 1rem;
+    font-weight: 600;
+
+    color: #bfbfbf;
+    background-color: #fff;
+    border: 2px solid var(--base_02);
+   
+}
+
+.botao-primario-X:hover{
+    background-color: var(--secundaria_02);
+    border: 2px solid var(--secundaria_02);
+    color: white;
+    
+}
+
+/*-------------------------------------botoes SM------------------------*/
+.botao-primario-sm{
+    background-color: var(--secundaria_03) ;
+    border: 2px solid var(--secundaria_03);
+    color: white;
+    
+    padding: 0.2rem 1rem;
+    display: block;
+    font-weight: 600;
+    
+}
+
+.botao-secundario-sm{
+    background-color: #476BA9;
+    border: solid 2px #476BA9;
+    color: white;
+ 
+    padding: 0.2rem 1rem;
+    display: block;
+    font-weight: 600;
+    
+}
+
+.botao-terciario-sm {
+    background-color: white;
+    border: solid 2px #bfbfbf;
+    color: #bfbfbf;
+    padding: 0.2rem 1rem;
+    display: block;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
