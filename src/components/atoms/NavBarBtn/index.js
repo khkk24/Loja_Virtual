@@ -1,11 +1,13 @@
-import Nav from 'react-bootstrap/Nav';
-import styles from "./navBar.module.css"
+import { Link } from 'react-router-dom';
+import styles from "./navBarBtn.module.css"
+
+
 const NavBarBtn = ({name, link}) => {
     return (
         <>
-            <Nav.Link className={styles.teste} href={link}>{name}</Nav.Link>
+            <Link to={link} className={`nav-link ${styles.btnWrapper}`} >{name}</Link>
         </>
     )
 }
 
-export default NavBarBtn
+export default NavBarBtn;
