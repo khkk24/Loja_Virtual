@@ -8,7 +8,7 @@ const NavBtns = () => {
     { name: "Home", link: "/" },
     { name: "Products", link: "/" },
     { name: "About", link: "/" },
-    { name: "Contact", link: "/" },
+    { name: "Contact", link: "/Contact" },
   ];
 
   return (
