@@ -5,6 +5,8 @@ import FooterNetworkIcons from "../../molecules/FooterNetworkIcons";
 import FooterText from "../../atoms/FooterText/index";
 import FooterInput from "../../molecules/FooterInput";
 
+import styles from "./footer.module.css";
+
 const datas = [
   {
     title: "Product",
@@ -27,25 +29,33 @@ const datas = [
 
 const Footer = () => {
   return (
-    <Container>
-      <Row>
-        <Col>
-          <FooterIcons />
-        </Col>
-        <Col>
-          <FooterInput />
-        </Col>
-        <Col>
-          <FooterNetworkIcons />
-        </Col>
-      </Row>
-      <Row>
+    <Container fluid className={styles.footerWrapper}>
+      <Container>
+        <Row className={styles.teste}>
+          <Col md={3} className={styles.teste1}>
+            <FooterIcons />
+          </Col>
+          <Col md={6} className={styles.teste2}>
+            <FooterInput />
+          </Col>
+          <Col md={3} className={styles.teste3}>
+            <FooterNetworkIcons />
+          </Col>
+        </Row>
+        <Row className={styles.teste4}>
           {datas.map((data, index) => (
             <Col key={index}>
-              <FooterText key={index} title={data.title} text={data.text} />
+              <div className={styles.teste5}>
+                <FooterText key={index} title={data.title} text={data.text} />
+              </div>
             </Col>
           ))}
-      </Row>
+        </Row>
+        <div className={styles.line}>
+          <hr></hr>
+        </div>
+        <p>© 2045 All Rights Reserved.HTML Design</p>
+      </Container>
     </Container>
   );
 };

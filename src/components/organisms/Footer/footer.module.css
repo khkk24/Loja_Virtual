@@ -1,0 +1,36 @@
+.footerWrapper{
+    background-color: #2d2d2d;
+    color: rgb(228, 233, 228);
+    padding-top: 2.6rem;
+    padding-bottom: 2.6rem;
+}
+.teste{
+    /* border: 1px solid red; */
+}
+.teste1{
+    /* border: 1px solid blue; */
+    text-align: start;
+    padding-left: 0;
+}
+.teste2{
+    /* border: 1px solid black; */
+}
+.teste3{
+    /* border: 1px solid violet; */
+    text-align: end;
+    padding-right: 0;
+}
+
+.teste4{
+    margin-top: 2.8rem;
+    margin-bottom: 3.7rem;
+}
+
+.teste5{
+    width: 200px;
+}
+
+.line{
+    width: 50%;
+    margin: auto;
+}

@@ -1,22 +1,25 @@
 import { Col, Container, Row } from "react-bootstrap";
 import Icon from "../../atoms/Icon/index";
 import {
-  faShoppingCart,
-  faSearch,
-  faUser,
-} from "@fortawesome/free-solid-svg-icons";
-
-const icons = [faShoppingCart,faSearch,faUser];
+  faFacebook,
+  faTwitter,
+  faLinkedinIn,
+  faInstagram,
+  faYoutube,
+} from "@fortawesome/free-brands-svg-icons";
+import styles from "./footerIcons.module.css";
+const icons = [faFacebook, faTwitter, faLinkedinIn, faInstagram, faYoutube];
+const color="rgb(228, 233, 228)"
 const FooterNetworkIcons = () => {
   return (
     <Container>
-      <Row>
+      <div className={styles.teste1}>
         {icons.map((icon, index) => (
-          <Col key={index}>
-            <Icon icon={icon} />
-          </Col>
+          <div className={styles.teste2} key={index}>
+            <Icon height="35px" color={color} icon={icon} />
+          </div>
         ))}
-      </Row>
+      </div>
     </Container>
   );
 };

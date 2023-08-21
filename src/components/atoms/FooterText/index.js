@@ -1,7 +1,8 @@
+import styles from "./footerText.module.css"
 const FooterText = ({ title, text }) => {
   return (
-    <div>
-      <h2>{title}</h2>
+    <div className={styles.teste}>
+      <h4 className={styles.title} >{title}</h4>
       <p>{text}</p>
     </div>
   );

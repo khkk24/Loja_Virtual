@@ -1,7 +1,9 @@
+import styles from "./footerInput.module.css";
+
 const FooterInput = () => {
   return (
     <div>
-      <input type="text" />
+      <input placeholder="Enter your email" type="text" />
       <button type="button"> Subscribe </button>
     </div>
   );
