@@ -31,20 +31,20 @@ const Footer = () => {
   return (
     <Container fluid className={styles.footerWrapper}>
       <Container>
-        <Row className={styles.teste}>
-          <Col md={3} className={styles.teste1}>
+        <Row>
+          <Col sm={12} md={6} lg={3}  className={styles.teste1}>
             <FooterIcons />
           </Col>
-          <Col md={6} className={styles.teste2}>
+          <Col sm={12} md={6} lg={6} className={styles.teste2}>
             <FooterInput />
           </Col>
-          <Col md={3} className={styles.teste3}>
+          <Col sm={12} md={12} lg={3} className={styles.teste3}>
             <FooterNetworkIcons />
           </Col>
         </Row>
         <Row className={styles.teste4}>
           {datas.map((data, index) => (
-            <Col key={index}>
+            <Col sm={6} md={6} lg={3} key={index}>
               <div className={styles.teste5}>
                 <FooterText key={index} title={data.title} text={data.text} />
               </div>

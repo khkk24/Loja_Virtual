@@ -1,3 +1,49 @@
 .teste{
-    border: 1px solid  red;
+    /* border: 1px solid  red; */
+    position: relative;
+}
+
+.teste input{
+    height: 4.3rem;
+    width: 80%;
+    border-radius: 30px;
+    border: none;
+    padding-left: 1.2rem;
+}
+
+.teste button{
+    height: 3.5rem;
+    width: 24%;
+    border-radius: 30px;
+    position: absolute;
+    border: none;
+    color: white;
+    text-transform: uppercase;
+    top: 10%;
+    left: 65%;
+    background-color: #f2515e;
+}
+
+@media screen and (max-width: 576px) {
+    .teste input{
+        height: 3.3rem;
+        width: 80%;
+        border-radius: 30px;
+        border: none;
+    }
+
+    .teste button{
+        left: 48%;
+        height: 2.7rem!important;
+        width: 40%;
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 992px){
+    .teste button{
+        left: 44%;
+        height: 3.5rem;
+        width: 45%;
+    } 
 }
