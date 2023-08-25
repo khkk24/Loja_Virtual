@@ -9,6 +9,7 @@ const NavBtns = () => {
     { name: "Products", link: "/" },
     { name: "About", link: "/" },
     { name: "Contact", link: "/Contact" },
+    { name: "Blog", link: "/Blog" },
   ];
 
   return (

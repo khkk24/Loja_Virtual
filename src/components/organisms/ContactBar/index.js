@@ -1,6 +1,8 @@
 import React from 'react';
 import { Col, Container, Form, Row, Button } from 'react-bootstrap';
 import './styles.css';
+import contactImage from '../../../images/architecture-city-building-tourism-wallpaper-preview.jpg';
+
 
 const ContactBar = () => {
     return (
@@ -11,7 +13,14 @@ const ContactBar = () => {
                         <h1 className="contact-title">Contact Us</h1>
                     </Col>
                     <Col xs={4} className="d-none d-md-flex justify-content-end align-items-center">
-                        <img src="" alt="image" className="img-fluid" />
+                        <div style={{ width: '70px', height: '70px', overflow: 'hidden', borderRadius: '50%'}}>
+                            <img
+                                src={contactImage}
+                                alt="image"
+                                className="img-fluid flip-image"
+                                style={{ width: '100%', height: '100%', objectFit: 'cover' }}
+                            />
+                        </div>
                     </Col>
                 </Row>
             </Container>
@@ -19,7 +28,14 @@ const ContactBar = () => {
             <Container fluid className="form-container">
                 <Row>
                     <Col className="d-none d-md-block">
-                        <img src="" alt="Contact" className="img-fluid" />
+                        <div style={{ border: '2px solid white', padding: '10px' }}>
+                            <img
+                                src={contactImage}
+                                alt="Contact"
+                                className="img-fluid"
+                                style={{ width: '100%', height: 'auto' }}
+                            />
+                        </div>
                     </Col>
                     <Col>
                         <Form className="mt-4">
