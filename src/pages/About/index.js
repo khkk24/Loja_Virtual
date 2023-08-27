@@ -1,9 +1,11 @@
-import React from 'react'
+import AboutTemplate from "../../components/templates/AboutTemplate";
 
 const About = () => {
   return (
-    <div>About</div>
-  )
-}
+    <>
+      <AboutTemplate />
+    </>
+  );
+};
 
-export default About
+export default About;

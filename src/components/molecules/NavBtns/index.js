@@ -7,7 +7,7 @@ const NavBtns = () => {
   const btns = [
     { name: "Home", link: "/" },
     { name: "Products", link: "/" },
-    { name: "About", link: "/" },
+    { name: "About", link: "/About" },
     { name: "Contact", link: "/Contact" },
     { name: "Blog", link: "/Blog" },
   ];
