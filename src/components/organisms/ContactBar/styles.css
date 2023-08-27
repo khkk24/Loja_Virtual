@@ -14,3 +14,12 @@
 .flip-image {
     /* transform: scaleY(-1); */
 }
+
+.flex-column {
+    width: 100%;
+    /* Ajustez la largeur du div selon vos besoins */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* background-color:aqua ; */
+}

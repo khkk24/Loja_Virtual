@@ -14,3 +14,70 @@
 .flip-image {
     /* transform: scaleY(-1); */
 }
+
+.responsive-title {
+    font-size: 2rem;
+    text-align: start;
+    /* background-color: red; */
+    
+  
+}
+
+.responsive-text {
+    font-size: 1rem;
+    text-align: start;
+    min-width: 300px; 
+   
+}
+
+.flex-column {
+    width: 100%;
+    /* Ajustez la largeur du div selon vos besoins */
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    /* background-color:aqua ; */
+}
+
+.custom-button {
+    /* background-color: transparent; */
+    border: none;
+    color:aliceblue;
+    /* Couleur de base du bouton */
+    transition: color 0.3s;
+    /* Transition de couleur pour l'effet de survol */
+    cursor: pointer;
+    align-self:flex-start;
+    background-color: #333;
+}
+.custom-button1 {
+    /* background-color: transparent; */
+    border: none;
+    color:aliceblue;
+    /* Couleur de base du bouton */
+    transition: color 0.3s;
+    /* Transition de couleur pour l'effet de survol */
+    cursor: pointer;
+    align-self:flex-end;
+    justify-self: flex-end;
+    background-color: #333;
+}
+
+.custom-button:hover {
+    color:coral;
+   
+}
+
+.image-container {
+    display: flex;
+    align-items: flex-end;
+    height: 100%;
+    background-color: blueviolet;
+}
+.first-col {
+    flex:0 0 10%;
+}
+
+.second-col {
+    flex: 0 0 90%;
+}

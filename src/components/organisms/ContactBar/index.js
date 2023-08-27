@@ -7,6 +7,7 @@ import contactImage from '../../../images/architecture-city-building-tourism-wal
 const ContactBar = () => {
     return (
         <>
+            <Row>
             <Container fluid className="contact-bar">
                 <Row className="contact-row" style={{ height: '20vh' }}>
                     <Col xs={8} className="d-flex justify-content-end align-items-center">
@@ -27,17 +28,21 @@ const ContactBar = () => {
 
             <Container fluid className="form-container">
                 <Row>
-                    <Col className="d-none d-md-block">
-                        <div style={{ border: '2px solid white', padding: '10px' }}>
+                        <Col md={{ order: 1 }}
+                            className="d-md-block d-flex "
+                        >
+                            <div
+                                className="d-md-block"
+                                style={{ border: '2px solid white', padding: '10px', height: '100%' }}>
                             <img
                                 src={contactImage}
                                 alt="Contact"
                                 className="img-fluid"
-                                style={{ width: '100%', height: 'auto' }}
+                                    style={{ width: '100%', height: 'auto', objectFit: 'cover' }}
                             />
                         </div>
                     </Col>
-                    <Col>
+                    <Col md={{ order: 2 }} className="d-flex flex-column ">
                         <Form className="mt-4">
                             <Form.Group controlId="formBasicName" className="mb-3">
                                 <Form.Control type="text" placeholder="Your Name" />
@@ -57,7 +62,8 @@ const ContactBar = () => {
                         </Form>
                     </Col>
                 </Row>
-            </Container>
+                </Container>
+            </Row>
         </>
     );
 };
