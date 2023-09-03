@@ -6,6 +6,10 @@
     /* justify-content: start; */
 }
 
+.contact_title{
+    font-family: var(--font-style);
+}
+
 .form_img{
     max-height: 500px;
     background-color: aqua;

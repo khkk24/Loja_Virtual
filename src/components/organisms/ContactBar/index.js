@@ -11,7 +11,7 @@ const ContactBar = () => {
             <Container fluid className="contact-bar">
                 <Row className="contact-row" style={{ height: '20vh' }}>
                     <Col xs={8} className="d-flex justify-content-end align-items-center">
-                        <h1 className="contact-title">Contact Us</h1>
+                        <h1 className="contact_title">Contact Us</h1>
                     </Col>
                     <Col xs={4} className="d-none d-md-flex justify-content-end align-items-center">
                         <div style={{ width: '70px', height: '70px', overflow: 'hidden', borderRadius: '50%'}}>
