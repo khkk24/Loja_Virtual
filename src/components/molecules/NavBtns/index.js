@@ -6,7 +6,7 @@ import { Container } from "react-bootstrap";
 const NavBtns = () => {
   const btns = [
     { name: "Home", link: "/" },
-    { name: "Products", link: "/" },
+    { name: "Products", link: "/Product" },
     { name: "About", link: "/About" },
     { name: "Contact", link: "/Contact" },
     { name: "Blog", link: "/Blog" },

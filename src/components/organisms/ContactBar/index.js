@@ -28,7 +28,7 @@ const ContactBar = () => {
 
             <Container fluid className="form-container">
                 <Row>
-                        <Col md={{ order: 1 }}
+                        <Col xl={6} md={{ order: 1 }}
                             className="d-md-block d-flex "
                         >
                             <div
@@ -42,7 +42,7 @@ const ContactBar = () => {
                             />
                         </div>
                     </Col>
-                    <Col md={{ order: 2 }} className="d-flex flex-column ">
+                        <Col md={{ order: 2 }} className="d-flex flex-column ">
                         <Form className="mt-4">
                             <Form.Group controlId="formBasicName" className="mb-3">
                                 <Form.Control type="text" placeholder="Your Name" />

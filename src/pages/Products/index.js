@@ -1,8 +1,13 @@
 import React from 'react'
-
+import ProductTemplate from '../../components/templates/ProductTemplate'
 const Products = () => {
   return (
-    <div>Products</div>
+    <div>
+      <ProductTemplate />
+
+
+    </div>
+
   )
 }
 
