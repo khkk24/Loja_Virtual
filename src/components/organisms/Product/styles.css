@@ -1,0 +1,56 @@
+.custom-divider {
+    border-left: 1px solid #ccc;
+    /* Ligne de diviseur à gauche */
+    /* padding-left: 20px; */
+    /* Espacement entre le diviseur et le contenu */
+}
+
+/* styles.css */
+.sidebar {
+    background-color: #f0f0f0;
+    /* Couleur de fond de la barre latérale */
+    padding: 20px;
+    /* Espacement interne de la barre latérale */
+    border-right: 1px solid #ccc;
+    /* Bordure à droite de la barre latérale */
+    min-height: 100vh;
+    /* Hauteur minimale de la barre latérale pour occuper toute la hauteur de la fenêtre */
+}
+
+.sidebar-links {
+    margin-top: 20px;
+    /* Espacement entre le titre et la liste de liens */
+}
+
+.sidebar-links h4 {
+    font-size: 1.2rem;
+    /* Taille de police du titre */
+    margin-bottom: 10px;
+    /* Espacement en bas du titre */
+}
+
+.sidebar-links ul {
+    list-style-type: none;
+    /* Supprime les puces de la liste */
+    padding: 0;
+    /* Supprime le padding par défaut de la liste */
+}
+
+.sidebar-links li {
+    margin-bottom: 10px;
+    /* Espacement entre les éléments de la liste */
+}
+
+.sidebar-links a {
+    text-decoration: none;
+    /* Supprime la décoration de texte des liens */
+    color: #333;
+    /* Couleur du texte des liens */
+    font-weight: bold;
+    /* Gras pour les liens */
+}
+
+.sidebar-links a:hover {
+    color: #007bff;
+    /* Couleur du texte des liens au survol */
+}

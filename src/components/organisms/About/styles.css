@@ -1,0 +1,42 @@
+
+.aboutImg1 {
+    width: 100%;
+    height: auto;
+}
+
+.aboutText {
+    padding-top: 2.3rem;
+}
+
+.title {
+    text-transform: uppercase;
+    text-align: start;
+}
+
+.line {
+    margin-top: 2.2rem;
+    margin-bottom: 1.2rem;
+    margin-left: 0.8rem;
+    border-left: 1px solid black;
+    height: 4.5rem;
+}
+
+.text {
+    width: 60%;
+}
+
+.aboutBtn {
+    background-color: #363636;
+    color: white;
+    width: 170px;
+    height: 50px;
+    border: none;
+}
+
+.aboutBtn:hover {
+    background-color: #f2515e;
+}
+
+.aboutImg2 {
+    width: 350px;
+}

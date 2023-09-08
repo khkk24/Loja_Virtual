@@ -1,0 +1,15 @@
+.textWrapper{
+    text-align: start;
+}
+
+.title{
+    text-transform: uppercase;
+}
+
+
+@media screen and (max-width: 768px) {
+
+    .textWrapper{
+        text-align: center;
+    }
+}

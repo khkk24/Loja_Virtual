@@ -1,0 +1,41 @@
+.footerWrapper {
+    background-color: #2d2d2d;
+    color: rgb(228, 233, 228);
+    padding-top: 2.6rem;
+    padding-bottom: 2.6rem;
+}
+
+.col1Footer {
+    text-align: start;
+    padding-left: 0;
+}
+
+.textWrapper {
+    margin-top: 2.8rem;
+    margin-bottom: 3.7rem;
+}
+
+.text {
+    width: 200px;
+}
+
+.line {
+    width: 50%;
+    margin: auto;
+}
+
+@media screen and (max-width: 992px) {
+    .col1Footer {
+        text-align: center;
+        margin-bottom: 1.2rem;
+    }
+
+    .col2Footer {
+        text-align: center;
+        margin-bottom: 1.2rem;
+    }
+
+    .text {
+        width: auto;
+    }
+}
